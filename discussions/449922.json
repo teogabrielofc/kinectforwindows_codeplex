@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "1067971",
+    "ThreadId": "449922",
+    "Html": "Hello,\r<br />\nI am currently trying to develop a kinect application using C# that can be used as a music player (or say as a piano).\r<br />\nMost of the tutorials I found online are developed using kinect for windows SDK beta version which is obviously a lot different from current version (v1.7).\r<br />\n<br />\nI would like to create a 3D space of different musical keys where user can move around, and use left and right hands and feet to interact with these keys. Could you be able to provide me a tutorial with source code to develop such application please?\r<br />\n<br />\nThanks<br />\n",
+    "PostedDate": "2013-07-13T19:52:18.937-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1069218",
+    "ThreadId": "449922",
+    "Html": "Hi Gabriel,<br />\n<pre><code>     Did you get a chance to check out samples in 1.7 Toolkit &quot;Control Basics-WPF&quot;.\n</code></pre>\n\nThis sample does no show how to play music files. But setting up your musical keys/Buttons should be really easy by modifying this sample. \r<br />\n<br />\nLet me know if this is the type of interaction you are looking for.\r<br />\n<br />\nThank you,\r<br />\nAshok.<br />\n",
+    "PostedDate": "2013-07-16T14:23:07.587-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

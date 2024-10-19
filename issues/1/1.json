@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "at SpeechBasics-WPF sample, there is the command\r\n  new MemoryStream(Encoding.ASCII.GetBytes(Properties.Resources.SpeechGrammar_en)))\r\nbut since the grammar file is in UTF8 format it should better be\r\n  new MemoryStream(Encoding.UTF8.GetBytes(Properties.Resources.SpeechGrammar_en)))\r\nto conver speech recognition for other languages in the future that aren't covered by ASCII\r\n\r\n(this could potentially be a hard to spot problem if one uses copy-paste from this sample)\r\n\r\n",
+    "LastUpdatedDate": "2015-08-27T14:39:44.157-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "kinectforwindows",
+    "ReportedDate": "2015-08-27T14:39:44.157-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "SpeechBasics-WPF using ASCII instead of UTF8",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 1
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

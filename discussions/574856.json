@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "1331595",
+    "ThreadId": "574856",
+    "Html": "I'm new to the Kinect SDK, and I'm a little lost. I've seen these cool projects found in here <a href=\"http://www.microsoft.com/en-us/kinectforwindows/meetkinect/gallery.aspx\" rel=\"nofollow\">http://www.microsoft.com/en-us/kinectforwindows/meetkinect/gallery.aspx</a>, and I'm wondering if those projects are done using the skeleton tracking built in the SDK, or if they create their own using the raw data from the sensors.<br />\n",
+    "PostedDate": "2014-12-13T06:24:46.897-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1442203",
+    "ThreadId": "574856",
+    "Html": "Most projects out there use Microsoft's skeleton tracking, however some others use Freenect, OpenCV etc.<br />\n",
+    "PostedDate": "2015-08-27T14:31:23.21-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1442204",
+    "ThreadId": "574856",
+    "Html": "BTW, there are various ways you can use Gesture Recognition, I'm currently refactoring the code of Hotspotizer which uses space discretization, probably the easier way for end-users to define such gestures if you have such a scenario (see <a href=\"http://designlab.ku.edu.tr/hotspotizer/\" rel=\"nofollow\">http://designlab.ku.edu.tr/hotspotizer/</a> and <a href=\"http://github.com/mbaytas/hotspotizer\" rel=\"nofollow\">http://github.com/mbaytas/hotspotizer</a> and for my fork see <a href=\"https://github.com/birbilis/hotspotizer\" rel=\"nofollow\">https://github.com/birbilis/hotspotizer</a>)<br />\n",
+    "PostedDate": "2015-08-27T14:33:52.933-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

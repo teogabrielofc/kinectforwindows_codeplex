@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "At SpeechBasics-WPF one could get rid of two of the dictionaries defined in the code, by using a Direction enum with explicit degree values and adapting the LEFT and RIGHT recognition code accordingly\r\n\r\n    /// <summary>\r\n    /// Enumeration of directions in which turtle may be facing (using clock-wise degrees for values)\r\n    /// </summary>\r\n    private enum Direction\r\n    {\r\n      Up = 0,\r\n      Right = 90,\r\n      Down = 180,\r\n      Left = 270\r\n    }\r\n\r\n...\r\n\r\n          case \"LEFT\":\r\n            leftSpan.Foreground = Brushes.DeepSkyBlue;\r\n            leftSpan.FontWeight = FontWeights.Bold;\r\n            curDirection = (Direction)(((int)curDirection + 270) % 360); //do not use - 90, do not want to end up with negative numbers (plus can't use Math.Abs on the result of the modulo operation, will end up with wrong number)\r\n            turtleRotation.Angle = (int)curDirection;\r\n            break;\r\n\r\n          case \"RIGHT\":\r\n            rightSpan.Foreground = Brushes.DeepSkyBlue;\r\n            rightSpan.FontWeight = FontWeights.Bold;\r\n            curDirection = (Direction)Math.Abs(((int)curDirection + 90) % 360);\r\n            turtleRotation.Angle = (int)curDirection;\r\n            break;\r\n\r\n\r\n",
+    "LastUpdatedDate": "2015-08-27T14:43:01.283-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "kinectforwindows",
+    "ReportedDate": "2015-08-27T14:43:01.283-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "SpeechBasics-WPF refactoring",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 2
+  },
+  "FileAttachments": [],
+  "Comments": []
+}
